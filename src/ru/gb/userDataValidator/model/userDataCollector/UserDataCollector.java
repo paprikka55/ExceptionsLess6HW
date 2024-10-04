@@ -1,7 +1,5 @@
 package ru.gb.userDataValidator.model.userDataCollector;
 
-import java.util.Date;
-
 public class UserDataCollector {
     private final String firstName;
     private final String lastName;

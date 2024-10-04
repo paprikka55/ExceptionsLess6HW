@@ -1,7 +1,5 @@
 package ru.gb.userDataValidator.model.inspectors;
-
 import ru.gb.userDataValidator.model.exceptions.IllegalCharsInData;
-
 import java.util.regex.Pattern;
 
 public class FirstLastPatronymicItemInspector implements ItemInspector {

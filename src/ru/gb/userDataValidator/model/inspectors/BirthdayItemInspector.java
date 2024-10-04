@@ -1,8 +1,6 @@
 package ru.gb.userDataValidator.model.inspectors;
-
 import ru.gb.userDataValidator.model.exceptions.InvalidDateException;
 import ru.gb.userDataValidator.model.exceptions.InvalidDateFormatException;
-
 import java.util.regex.Pattern;
 
 public class BirthdayItemInspector implements ItemInspector {

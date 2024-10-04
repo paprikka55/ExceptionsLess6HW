@@ -1,7 +1,5 @@
 package ru.gb.userDataValidator.model.inspectors;
-
 import ru.gb.userDataValidator.model.exceptions.InvalidGenderException;
-
 import java.util.regex.Pattern;
 
 public class GenderItemInspector implements ItemInspector {

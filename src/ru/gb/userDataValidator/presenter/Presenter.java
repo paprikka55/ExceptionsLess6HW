@@ -15,10 +15,8 @@ public class Presenter {
     }
 
     public void validateData(String stringUserData) {
-        boolean dataValidated = false;
         try{
             service.startValidator(stringUserData);
-            dataValidated = true;
             ui.printAnswer("Данные внесены в файл: " + service.getUserData().getLastName() + ".txt");
         } catch (IOException exception){
             String error = "Ошибка!: \n" +

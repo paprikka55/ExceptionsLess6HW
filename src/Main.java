@@ -1,13 +1,5 @@
-import ru.gb.userDataValidator.model.Service;
-import ru.gb.userDataValidator.model.Validator;
-import ru.gb.userDataValidator.model.inspectors.BirthdayItemInspector;
-import ru.gb.userDataValidator.model.inspectors.FirstLastPatronymicItemInspector;
-import ru.gb.userDataValidator.model.inspectors.GenderItemInspector;
-import ru.gb.userDataValidator.model.inspectors.PhoneNumberItemInspector;
 import ru.gb.userDataValidator.view.ConsoleUi;
 import ru.gb.userDataValidator.view.Ui;
-
-import java.io.IOException;
 
 /*Задание 1. Проверка корректности даты
 Напишите приложение, которое будет запрашивать у пользователя следующие

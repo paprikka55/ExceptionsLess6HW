@@ -3,8 +3,6 @@ package ru.gb.userDataValidator.model;
 import ru.gb.userDataValidator.model.userDataCollector.UserDataCollector;
 import ru.gb.userDataValidator.model.userDataCollector.UserDataCollectorItems;
 
-import java.io.IOException;
-import java.io.Writer;
 
 public class Validator {
 

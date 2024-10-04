@@ -2,10 +2,7 @@ package ru.gb.userDataValidator.model;
 
 import ru.gb.userDataValidator.model.userDataCollector.UserDataCollector;
 import ru.gb.userDataValidator.model.writer.FileHandler;
-
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
 
 public class Service {
     private final Validator validator;
